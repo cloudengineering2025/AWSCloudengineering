@@ -1,0 +1,12 @@
+### 🔹 Invoke Lambda from EC2 Terminal
+
+```bash
+aws lambda invoke  --function-name <lambda function name>  response.json
+
+
+
+Output check करा:
+
+```bash
+cat response.json
+```
